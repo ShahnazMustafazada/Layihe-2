@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 336px;
+  min-height: 236px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+.card-body1 {
+  height: 150px;
+}
+
+.line {
+  width: 334px;
+  height: 28px;
+  background: #ffdc40;
+  border-radius: 10px 10px 0 0;
+}
+
+h1 {
+  height: 34px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 13px 0 16px 0;
+  color: #000000;
+}
+
+.sorted {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 23px;
+  padding: 2px;
+  width: 275px;
+  height: 40px;
+}
+
+.sorted img {
+  width: 25px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.input {
+  margin-left: 0px;
+  padding: 2px;
+  width: 286px;
+  height: 40px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+.todo-input {
+  border: none;
+  padding: 2px;
+  width: 83%;
+  height: 100%;
+  font-size: 15px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.btn-add {
+  display: flex;
+  width: 150px;
+  height: 42px;
+  background: #833ae0;
+  border-radius: 71px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+}
+
+.btn-add:hover{
+    background: #6c32b8;
+    cursor: pointer;
+}
+
+.btn-add > .plus {
+  width: 42px;
+  height: 42px;
+  background: #9953f1;
+  border-radius: 71px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px 27px;
+  width: 286px;
+  min-height: 40px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  margin: 12px 22px 18px 23px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  height: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.x-icon {
+  border: 1px solid #c4c4c4;
+  border-radius: 71px;
+  font-size: 15px;
+}
+
+.x-icon:hover {
+  background-color: #833ae0;
+}
